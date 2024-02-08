@@ -1,7 +1,7 @@
-
 import { FaStar } from "react-icons/fa";
 import './styles.css';
 import {useState} from "react";
+
 export default function StarRating ({ numberOfStars = 5}) {
     const [rating, setRating] = useState(0)
     const [hover, setHover] = useState(0)
